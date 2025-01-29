@@ -9,7 +9,7 @@ import replicate
 load_dotenv(override=True)
 os.environ.get("GROQ_API_KEY")
 
-llm = ChatGroq(model="llama-3.1-70b-versatile", temperature=0.7)
+llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.7)
 # llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7)
 
 
